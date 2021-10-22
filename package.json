@@ -1,0 +1,26 @@
+{
+    "name": "blogte",
+    "version": "1.0.0",
+    "description": "Blog ",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect npm install --save-dev nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phuongnguyen29092000/nodejs_BlogTE.git"
+    },
+    "author": "nguyen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/phuongnguyen29092000/nodejs_BlogTE/issues"
+    },
+    "homepage": "https://github.com/phuongnguyen29092000/nodejs_BlogTE#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
